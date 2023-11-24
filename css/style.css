@@ -1,0 +1,824 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.accentcolor {
+    color: #343434;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
+    font-family: "Montserrat", sans-serif;
+}
+
+.FW-800 {
+    font-weight: 800;
+}
+
+.fs-18PX {
+    font-size: 18px;
+}
+
+.fs-14PX {
+    font-size: 14px;
+}
+
+.pyA {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.px20 {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.Homeafter::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    background-color: #343434;
+    left: 12px;
+    top: 17px;
+    transition: all 0.35s;
+
+}
+
+.active {
+    position: relative;
+    transition: all 0.5s;
+}
+
+.navi .active::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    left: 0px;
+    top: 18px;
+    transition: all 0.35s;
+}
+
+
+.HomeView {
+    background-image: url(../imgs/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.bgnone {
+    background: none;
+}
+
+.HomeView::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.65;
+    z-index: 2;
+}
+
+.fs50 {
+    font-size: 50px;
+}
+
+
+
+.caption {
+    position: absolute;
+    z-index: 3;
+}
+
+.caption .Typer {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.caption .Typer::after {
+    content: "|";
+    animation-name: Typer;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+@keyframes Typer {
+    0% {
+        content: "|";
+    }
+
+    1% {
+        content: "D|";
+    }
+
+    2% {
+        content: "De|";
+    }
+
+    3% {
+        content: "Dev|";
+
+    }
+
+    4% {
+        content: "Deve|";
+
+    }
+
+    5% {
+        content: "Devel|";
+
+    }
+
+    6% {
+        content: "Develo|";
+
+    }
+
+    7% {
+        content: "Develop|";
+
+    }
+
+    8% {
+        content: "Develope|";
+
+    }
+
+    9% {
+        content: "Developer|";
+
+    }
+
+    10% {
+        content: "Develope|";
+
+    }
+
+    11% {
+        content: "Develop|";
+
+    }
+
+    12% {
+        content: "Develo|";
+
+    }
+
+    13% {
+        content: "Devel|";
+
+    }
+
+    14% {
+        content: "Deve|";
+
+    }
+
+    15% {
+        content: "Dev|";
+
+    }
+
+    16% {
+        content: "De|";
+    }
+
+    17% {
+        content: "D|";
+    }
+
+    18% {
+        content: "|";
+    }
+
+    19% {
+        content: "|";
+    }
+
+    20% {
+        content: "P|";
+    }
+
+    21% {
+        content: "Ph|";
+    }
+
+    22% {
+        content: "Pho|";
+
+    }
+
+    23% {
+        content: "Phot|";
+
+    }
+
+    24% {
+        content: "Photo|";
+
+    }
+
+    25% {
+        content: "Photog|";
+
+    }
+
+    26% {
+        content: "Photogr|";
+
+    }
+
+    27% {
+        content: "Photogra|";
+
+    }
+
+    28% {
+        content: "Photograp|";
+
+    }
+
+    29% {
+        content: "Photograph|";
+
+    }
+
+    30% {
+        content: "Photographe|";
+
+    }
+
+    31% {
+        content: "Photographer|";
+
+    }
+
+    32% {
+        content: "Photographe|";
+
+    }
+
+    33% {
+        content: "Photograph|";
+
+    }
+
+    34% {
+        content: "Photograp|";
+
+    }
+
+    35% {
+        content: "Photogra|";
+    }
+
+    36% {
+        content: "Photogr|";
+    }
+
+    37% {
+        content: "Photo|";
+    }
+
+    38% {
+        content: "Phot|";
+    }
+
+    39% {
+        content: "Pho|";
+    }
+
+    40% {
+        content: "Ph|";
+    }
+
+    41% {
+        content: "P|";
+    }
+
+    42% {
+        content: "|";
+    }
+
+    43% {
+        content: "F|";
+    }
+
+    44% {
+        content: "Fr|";
+    }
+
+    45% {
+        content: "Fre|";
+    }
+
+    46% {
+        content: "Free|";
+    }
+
+    47% {
+        content: "Freel|";
+    }
+
+    48% {
+        content: "Freela|";
+    }
+
+    49% {
+        content: "Freelan|";
+    }
+
+    50% {
+        content: "Freelanc|";
+    }
+
+    51% {
+        content: "Freelance|";
+    }
+
+    52% {
+        content: "Freelancer|";
+    }
+
+    53% {
+        content: "Freelance|";
+    }
+
+    54% {
+        content: "Freelanc|";
+    }
+
+    55% {
+        content: "Freelan|";
+    }
+
+    56% {
+        content: "Freela|";
+    }
+
+    57% {
+        content: "Freel|";
+    }
+
+    58% {
+        content: "Free|";
+    }
+
+    59% {
+        content: "Fre|";
+    }
+
+    60% {
+        content: "Fr|";
+    }
+
+    61% {
+        content: "F|";
+    }
+
+    62% {
+        content: "|";
+    }
+
+    63% {
+        content: "D|";
+    }
+
+    64% {
+        content: "De|";
+    }
+
+    65% {
+        content: "Des|";
+    }
+
+    66% {
+        content: "Desi|";
+    }
+
+    67% {
+        content: "Desig|";
+    }
+
+    68% {
+        content: "Design|";
+    }
+
+    69% {
+        content: "Designe|";
+    }
+
+    70% {
+        content: "Designer|";
+    }
+
+    71% {
+        content: "Designe|";
+    }
+
+    72% {
+        content: "Design|";
+    }
+
+    73% {
+        content: "Desig|";
+    }
+
+    74% {
+        content: "Desi|";
+    }
+
+    75% {
+        content: "Des|";
+    }
+
+    76% {
+        content: "De|";
+    }
+
+    77% {
+        content: "D|";
+    }
+
+    78% {
+        content: "|";
+    }
+
+
+
+
+
+
+}
+
+.Bordericon1 {
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+
+}
+
+.py100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.width95 {
+    width: 95%;
+}
+
+.my-button1 {
+    width: 152.85px;
+    height: 40.8px;
+    background-color: #000;
+    color: white;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: all 0.25s;
+}
+
+.my-button1:hover {
+    color: black;
+    background-color: white;
+}
+
+.my-button2 {
+    width: 152.85px;
+    height: 40.8px;
+    background-color: white;
+    color: black;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: all 0.25s;
+}
+
+.my-button2:hover {
+    color: white;
+    background-color: black;
+}
+
+.services {
+    background-color: #f7f7f7;
+}
+
+.fs40 {
+    font-size: 40px;
+}
+
+.FW-900 {
+    font-weight: 900;
+}
+
+.padserv {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.mserv {
+    margin-bottom: 80px;
+}
+
+
+.divitem {
+    padding: 50px 20px;
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+}
+
+.bordericon2 {
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    line-height: 70px;
+    font-size: 20px;
+    transition: all 0.25s;
+}
+
+.divitem:hover .bordericon2 {
+    background-color: black;
+    color: white;
+}
+
+.m50px {
+    margin-bottom: 50px;
+}
+
+.NAVPILLS {
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.NAVPILLS::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    top: 25px;
+    left: 0;
+    background-color: black;
+    transition: all 0.5s;
+}
+
+.NAVPILLS:hover:after {
+    width: 100%;
+}
+
+.layerA {
+    width: 90%;
+    height: 95%;
+    background: rgba(255, 255, 255, 0.85);
+    top: 7.5px;
+    left: 19.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0%;
+    transition: all 0.5s;
+}
+
+.layerA:hover {
+    opacity: 100%;
+
+}
+
+.iconlayer {
+    background-color: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    border-radius: 50%;
+    font-size: 12px;
+    border: 1px solid black;
+    transition: all 0.5s;
+
+}
+
+.iconlayer:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.layertitle {
+    position: absolute;
+    top: 75px;
+    transition: all 0.5s;
+    opacity: 0%;
+}
+
+.layerA:hover .layertitle {
+    top: 110px;
+    opacity: 100%;
+
+}
+
+.IconZ {
+    font-size: 25px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.itemA:hover .IconZ {
+    background: black;
+    color: white;
+
+}
+
+.iconsB {
+    position: absolute;
+    bottom: 75px;
+    transition: all 0.5s;
+    opacity: 0%;
+
+}
+
+.layerA:hover .iconsB {
+    bottom: 110px;
+    opacity: 100%;
+}
+
+.w-15 {
+    width: 80px;
+}
+
+.container .Indicatorr .colorbtn {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #343434;
+    transform: translateY(30px);
+
+}
+
+.numbers {
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+.para {
+    font-weight: 600;
+}
+
+.iconX {
+    font-size: 30px;
+
+}
+
+.img-area {
+    transition: all 0.5s;
+}
+
+.social {
+    position: absolute;
+    width: 87%;
+    height: 88%;
+    background: rgba(255, 255, 255, 0.85);
+    top: 22px;
+    left: 23.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    opacity: 0%;
+    transform: scale(0.5);
+}
+
+.img-area:hover .social {
+    transform: scale(1) rotateY(360deg);
+    opacity: 100%;
+
+}
+
+.img-area:hover {
+    transform: scale(1.1);
+}
+
+.iconY {
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.5s;
+
+}
+
+.iconY:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.img-text {
+    background-color: rgba(52, 52, 52, .8);
+    color: white;
+}
+
+.Forminputs {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    border: 0;
+}
+
+.footer {
+    background: #1c1c1c;
+    padding: 30px;
+
+}
+
+.hero .hero-img:after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 26px;
+    bottom: -20px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.dots:after {
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    z-index: -1;
+}
+
+.navi {
+    background-color: none;
+    color: white;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.navi .container a {
+    color: white;
+}
+
+.scrolled {
+    background-color: white;
+    opacity: 0.98;
+}
+
+.scrolled .container a {
+    transition: color 0.4s ease-in-out;
+    color: black;
+
+
+}
